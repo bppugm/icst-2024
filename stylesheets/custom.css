@@ -929,7 +929,7 @@ code {
 .speaker-aff {
   font-size: .8rem;
   font-weight: 400;
-  font-family: "Merriweather Sans";
+  font-family: "Albert Sans";
 }
 
 /* satellite events */
@@ -941,20 +941,20 @@ code {
 }
 
 p , li {
-  font-family: 'Merriweather Sans';
-  font-weight: 300;
+  font-family: 'Albert Sans';
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.5em;
 }
 
 .alert p {
-  font-family: 'Merriweather Sans';
+  font-family: 'Albert Sans';
   font-weight: 300;
   font-size: 14px;
 }
 
 ol li {
-  font-family: 'Merriweather Sans';
+  font-family: 'Albert Sans';
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5em;
@@ -1016,7 +1016,7 @@ li a:hover {
 /* Table */
 
 .table {
-  font-family: 'Merriweather Sans';
+  font-family: 'Albert Sans';
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5em;
@@ -1031,7 +1031,7 @@ li a:hover {
 }
 
 .accordion-item {
-  font-family: 'Merriweather Sans';
+  font-family: 'Albert Sans';
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5em;
@@ -1052,4 +1052,9 @@ li a:hover {
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active {
   color: #40bb6a !important;
+}
+
+.second-nav {
+  background-color: #f8f7fd;
+  border-radius: 5px auto;
 }
