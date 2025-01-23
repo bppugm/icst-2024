@@ -101,7 +101,7 @@
             style="color: #40bb6a;">symposium</span></h1>
         <div class="row">
           <div class="col-lg-9"></div>
-          <div class="col-lg-3"><a href="ceit/submission.html" class="btn btn-primary"><i class="fa-solid fa-plus"
+          <div class="col-lg-3"><a href="#submitCEIT" class="btn btn-primary"><i class="fa-solid fa-plus"
                 style="padding-right: 10px;"></i>Submit paper</a></div>
         </div>
       </div>
@@ -112,8 +112,9 @@
             type="button" role="tab" aria-controls="aboutCEIT" aria-selected="true">About CEIT</button>
           <button class="nav-link" id="authorCEITtab" data-bs-toggle="tab" data-bs-target="#authorCEIT"
             type="button" role="tab" aria-controls="authorCEIT" aria-selected="false">Author Guidelines</button>
-          <button class="nav-link" id="feeCEITtab" data-bs-toggle="tab" data-bs-target="#feeCEIT" type="button"
-            role="tab" aria-controls="feeCEIT" aria-selected="false">Participation Fee</button>
+          <li class="nav-item">
+            <a class="nav-link" href="fee.html" aria-selected="false">Participation Fee</a>
+          </li>
         </div>
       </nav>
       <div class="tab-content" id="ceitTabContent">
@@ -121,81 +122,98 @@
           tabindex="0">
           <div class="row py-5">
             <div class="col-md-3">
-              <!-- Small navigation -->
-              <p class="pt-3 d-block d-sm-none">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMenu"
-                  aria-expanded="false" aria-controls="collapseMenu">
-                  Menu<i class="fa-solid fa-chevron-down" style="padding-left: 10px;"></i>
-                </button>
-              </p>
 
-              <div class="collapse" id="collapseMenu">
-                <div class="card card-body align-items-end">
-                  <a href="satellite-events.html" class="btn btn-trans2primary"><i class="fa-solid fa-arrow-left"
-                      style="padding-right: 5px;"></i>Events</button></a>
-                  <a href="computer-and-information-technology.html" class="btn btn-transprimary active">About CEIT<i
-                      class="fa-solid fa-chevron-right" style="padding-left: 5px;"></i></a>
-                  <a href="computer-and-information-technology/author-guidelines.html"
-                    class="btn btn-transprimary">Author guidelines<i class="fa-solid fa-arrow-right"
-                      style="padding-left: 8px;"></i></a>
-                  <a href="fee.html" class="btn btn-transprimary">Participation fee<i class="fa-solid fa-arrow-right"
-                      style="padding-left: 5px;"></i></a>
-                  <a href="computer-and-information-technology/submission.html" class="btn btn-primary"><i
-                      class="fa-solid fa-plus" style="padding-right: 10px;"></i>Submit manuscript</a>
-                  <a href="presentation.html" class="btn btn-transprimary">Presentation<i
-                      class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></a>
-                </div>
-              </div>
-
-              <a href="#" class="d-none d-md-block btn btn-transprimary">Topics</a>
-              <a href="#" class="d-none d-md-block btn btn-transprimary">Publications</a>
-              <a href="#" class="d-none d-md-block btn btn-transprimary">Editorial policy</a>
-              <a href="#" class="d-none d-md-block btn btn-transprimary">Committees</a>
+              <a href="#topics" class="d-none d-md-block btn btn-transprimary">Topics</a>
+              <a href="#publication" class="d-none d-md-block btn btn-transprimary">Publications</a>
+              <a href="editorial-policy.html" class="d-none d-md-block btn btn-transprimary">Editorial policy</a>
+              <a href="#committees" class="d-none d-md-block btn btn-transprimary">Committees</a>
             </div>
             <div class="col-md-9">
-              <h5>Topics</h5>
+              <h5 id="topics">Topics</h5>
               <p>Artificial intelligence, Bioinformatics, Computational sciences, Computer graphics, Computer vision, Data sciences, Decision support system, E-government, Game design, Information system security, Knowledge discovery and data mining, Medical Informatics, Mobile computation, Modeling and simulation, Multimedia applications and technologies, Parallel computation, Pattern recognition, Signal and image processing, Soft computing, Software engineering and software testing, Web technology, Adaptive control, Antennas, Biomedical electronics, Cognitive radio, Computer-aided – electronics design and technology, Control of infinite-dimensional systems, Control theory and applications, Cooperative communications, Device material and manufacturing technology, Embedded systems and SoC design, Geometric control theory and applications, Green design for VLSI and microelectronic circuits, Heterogeneous networks, Industrial automation and control systems technology, Information theory and coding systems, Intelligent control, Internet of things, Machine-to-machine (M2M) communications, Mobile computing, Multimedia communications, Network security, Photonic and optoelectronic circuits, Computational methods and reliability, Electricity markets and business models, Energy conservation and efficiency, Energy storage, FACTS, Future integrated electric power system, HVDC, Integrated energy system planning, Microgrids and remote communities, Policies and smart grids, Power electronics, Propagation and channel modeling, Radio resource management and optimization, Renewable energy: generation and integration, RF devices and circuits, Robotics and autonomous systems, Robust and nonlinear control, Satellite communications, Signal processing for communications, Smart grids: existing and emerging technologies, Spread spectrum systems, Ultra-wideband technology, Vehicular communication systems, Wireless Ad-hoc and sensor networks, and Sensors and sensor systems.</p>
-              <h5>Publication</h5>
+              <h5 id="publication">Publication</h5>
               <p>The accepted and presented papers will be submitted for possible inclusion to proceedings that are indexed by Scopus/CPCI/DOAJ: <a
                   href="https://scientific.net" target="_blank">Scientific.Net</a>.<br><br>
                 <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a>
-              <h5>Committees</h5>
+              <h5 id="committees">Committees</h5>
               <p><b>Scientific committee:</b><br>
                 Unan Yusmaniar Oktiawati, Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
                 <br>
                 <b>Technical program committee:</b><br>
-                Azkario Rizky Pratama, S.T., M.Eng., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Muhammad Alfian Amrizal, B.Eng., M.I.S., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Lukman Heryawan, ST, MT (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Yunita Sari, S.Kom., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Faizal Makhrus, S.Kom., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Prof. Dr.-Ing. Mhd. Reza M. I. Pulungan, S.Si., M.Sc. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Arif Nurwidyantoro, S.Kom., M.Cs., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Dyah Aruming Tyas, S.Si. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Syukron Abu Ishaq Alfarozi, ST, Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Guntur Dharma Putra (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Teguh Bharata Adji, S.T., M.T., M.Eng., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Ahmad Ataka Awwalur Rizqi, ST, Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Ahmad Nasikun, ST, M.Sc. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr.Eng. Ir. Sunu Wibirama, ST, M.Eng., IPM. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Ir. Adhistya Erna Permanasari, ST, MT, Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Indriana Hidayah, S.T., M.T. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Eng. Silmi Fauziati, ST, MT. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. I Wayan Mustika, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Ronald Adrian, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Yuris Mulya Saputra, S.T., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr.Eng. Tika Erna Putri, S.Si., M.Sc. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Wijayanti Dwi Astuti, S.Si., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Fahmizal, S.T., M.Sc. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr. Fitri Puspasari, S.Si., M.Sc (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Dr.Eng. Ganjar Alfian, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) Scopus<br>
-                Airlangga Adi Hermawan, S.T., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) Scopus
+                Azkario Rizky Pratama, S.T., M.Eng., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Muhammad Alfian Amrizal, B.Eng., M.I.S., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Lukman Heryawan, ST, MT (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Yunita Sari, S.Kom., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Faizal Makhrus, S.Kom., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Prof. Dr.-Ing. Mhd. Reza M. I. Pulungan, S.Si., M.Sc. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Arif Nurwidyantoro, S.Kom., M.Cs., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Dyah Aruming Tyas, S.Si. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Syukron Abu Ishaq Alfarozi, ST, Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Guntur Dharma Putra (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Teguh Bharata Adji, S.T., M.T., M.Eng., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Ahmad Ataka Awwalur Rizqi, ST, Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Ahmad Nasikun, ST, M.Sc. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr.Eng. Ir. Sunu Wibirama, ST, M.Eng., IPM. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Ir. Adhistya Erna Permanasari, ST, MT, Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Indriana Hidayah, S.T., M.T. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Eng. Silmi Fauziati, ST, MT. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. I Wayan Mustika, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Ronald Adrian, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Yuris Mulya Saputra, S.T., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr.Eng. Tika Erna Putri, S.Si., M.Sc. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Wijayanti Dwi Astuti, S.Si., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Fahmizal, S.T., M.Sc. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr. Fitri Puspasari, S.Si., M.Sc (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Dr.Eng. Ganjar Alfian, S.T., M.Eng. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"><br>
+                Airlangga Adi Hermawan, S.T., M.Sc., Ph.D. (Universitas Gadjah Mada, Indonesia) <img src="../images/publication/scopus.svg" class="px-1 my-2" style="filter: grayscale();" height="14px"></p>
             </div>
           </div>
         </div>
         <div class="tab-pane fade" id="authorCEIT" role="tabpanel" aria-labelledby="authorCEITtab" tabindex="0">
+          <div class="row py-5">
+            <div class="col-md-3">
+
+              <a href="#prepare" class="d-none d-md-block btn btn-transprimary">Preparing paper</a>
+              <a href="#docs" class="d-none d-md-block btn btn-transprimary">Templates</a>
+              <a href="#docs" class="d-none d-md-block btn btn-transprimary">Related documents</a>
+              <a href="#learn" class="d-none d-md-block btn btn-transprimary">💡 Learning tips</a>
+            </div>
+            <div class="col-md-9">
+              <h5 id="prepare">Preparing your paper</h5>
+              <ol type="1">
+                <li>The paper topic should <u>align with the scope of the symposium</u>, as well as the publisher's guidelines, to ensure relevance to the event's focus. This ensures that the submitted work is pertinent to the conference's objectives and will be of interest to the attendees and readers.</li>
+                <li>The submitted paper must be <u>an original work</u> and should not have been previously published or presented at another meeting (similarity score no more than 25%). <span style="color: gray;">💡 To ensure the paper's authenticity, it is recommended to use the Similarity Checker feature available in the Editor pane of Microsoft Word to check the paper against online sources.</span></li>
+                <li>The paper should be <u>written in English (US)</u>.</li>
+                <li>The <u>abstract should be concise and no longer than 200 words</u>, excluding the abstract title, authors, and affiliations. It should be <u>formatted in a two-column layout on A4 paper size</u> in <code style="color: black;">PDF</code> format. Furthermore, the paper should be <u>at least four pages long or six pages in maximum</u>.</li>
+                <li>The template, modified in Microsoft Word and saved as a <code style="color: black;">DOCX</code> file for PC compatibility, offers authors a comprehensive set of formatting guidelines for preparing electronic versions of their papers. <span style="color: gray;">You can access the <a href="#docs">downloadable <code>DOCX</code> template here ↧</a>. This template includes built-in specifications for margins, column widths, line spacing, font sizes, and font types, ensuring a professional and consistent appearance for your submissions.</span></li>
+                  <ul>
+                    <li>Font types. Times, Times Roman, or Times New Roman.</li>
+                    <li>Font sizes. Title (24 pt); Author and abstract (9 pt); Content (10 pt); Table head and Figure caption (8 pt).</li>
+                    <li>Margins of the first page. Top (9.5 mm); Left (15.7 mm); Bottom (25.4 mm); Right (15.7 mm).</li>
+                    <li>Margins of the second to sixth pages. Top (19 mm); Left (16 mm); Bottom (25.4 mm); Right (16 mm).</l>
+                    <li>Please ensure that all fonts are embedded, not as encrypted/secured file, and has no headers, footers, bookmarks, form fields, links, or annotation. <span style="color:gray">💡 For further assurance, we recommend utilizing the <a href="http://pdf-analyser.edpsciences.org/" target="_blank">PDF analyzer ↗︎</a> provided by EDP Sciences to inspect the document and guarantee that the submitted paper meet the required standards.</span></li>
+                  </ul>
+                <li>To ensure optimal print quality, it is crucial that the <u>listed artworks are provided with the highest resolution suitable for printing</u>, specifically 300 DPI (dots per inch). <span style="color: gray;">💡 For further assurance, we recommend utilizing the <a href="http://pdf-analyser.edpsciences.org/" target="_blank">PDF analyzer ↗︎</a> provided by EDP Sciences to inspect the document and guarantee that the artworks meet the required standards.</span></li>
+                <li>When incorporating tables and figures from external sources into your manuscript, ensure that the original work is written in English (US) and that you have obtained the necessary permissions from the copyright holder. Additionally, include a proper credit in your paper to acknowledge the source and comply with copyright regulations.</li>
+                <li>For both primary and co-authors, it is essential to provide complete credentials, including full names and email addresses. If co-authors are affiliated with multiple institutions, the secondary institution(s) and the investigators associated with each institution must be listed. Please note that the author name order should not be reversed unless explicitly instructed by the publisher. Additionally, affiliations and author names <u>should not include professional titles</u>, such as "Professor", "Graduate Student Researcher", "HOD", "Lecturer", "Alumnus", etc., to maintain consistency and clarity.</li></li>
+              </ol>
+              <h5 id="docs">Downloadable templates and related documents</h5>
+                <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Docx paper template (30 KB)</a><br>
+                <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> LaTeX paper template (700 KB)</a><br>
+                <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> LaTeX paper template (Overleaf)</a><br>
+                <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Paper guidelines</a><br><br>
+              <div class="alert alert-info">
+                <h5 id="learn">💡 Learning tips</h5>
+                  <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Check similarity with Microsoft Editor</a><br>
+                  <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Use styles in Microsoft Word</a><br>
+                  <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Embed all fonts in Microsoft Word</a><br>
+                  <a class="btn btn-trans2primary" href="#"><i class="fa fa-paper" style="padding-right: 5px;"></i> Check document's content</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tab-pane fade" id="feeCEIT" role="tabpanel" aria-labelledby="feeCEITtab" tabindex="0">
+        <div class="tab-pane fade" id="submitCEIT" role="tabpanel" aria-labelledby="submitCEITtab" tabindex="0">
+          <p>test</p>
         </div>
   </section>
 
@@ -271,7 +289,7 @@
       <p class="credit text-muted">The 10th International Conference on Science and Technology; The 5th Geoscience and Environmental Management symposium; & The 5th International Conference on Smart and Innovative Agriculture, organized by <a target="_blank" href="https://penelitian.ugm.ac.id/en/">UGM's Research Directorate</a>.
         Website has been developed by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> with contribution by Ma'ruf, and it has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
         <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.3</a>, and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a target="_blank" href="https://github.com/bppugm/icst-2022">unless otherwise stated</a>.
-        UGM and ICST logos © Universitas Gadjah Mada. AIP Publishing logo © AIP Publishing LLC. Scientific.Net logo © Trans Tech Publications Ltd. Scopus logo © Elsevier B.V. 
+        UGM and ICST logos © Universitas Gadjah Mada. Scientific.Net logo © Trans Tech Publications Ltd. Scopus logo © Elsevier B.V. 
         Symposium image by <a href="https://unsplash.com/photos/blue-circuit-board-jXd2FSvcRr8"
           target="_blank" alt="Blue circuit board">Umberto</a> (<a href="https://unsplash.com/license"
           target="_blank">Free to use</a>).
