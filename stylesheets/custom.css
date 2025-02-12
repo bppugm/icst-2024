@@ -135,13 +135,13 @@ code {
 /* NAV Item */
 
 .nav-item a {
-  color: grey;
   font-family: 'Dosis' !important;
   text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: .5px;
+  color: #1f73cc;
 }
 
 .nav-item .nav-link:hover {
@@ -162,8 +162,14 @@ code {
 
 /* NAV Pills */
 
-.nav-pills .nav-link {
+.nav-pills {
   border-radius: .5rem !important;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .5px;
   color: #1f73cc;
 }
 
@@ -607,7 +613,7 @@ code {
 
 .registration-closed-big-text {
   font-size: 3.3rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .registration-closed-medium-text {
@@ -664,7 +670,7 @@ code {
 
 .article-list .authors {
   margin-bottom: 0.75rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -930,7 +936,7 @@ code {
 }
 .speaker-aff {
   font-size: .8rem;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Albert Sans";
 }
 
@@ -951,7 +957,7 @@ p , li {
 
 .alert p {
   font-family: 'Albert Sans';
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -1060,3 +1066,9 @@ li a:hover {
   background-color: #f8f7fd;
   border-radius: 5px auto;
 }
+
+/* Simple styling to size an SVG */
+  .icon {
+    height: 12pt;
+    vertical-align: -0.125em;
+  }
