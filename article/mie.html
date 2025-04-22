@@ -91,11 +91,11 @@
   <!-- CONTENTS -->
   <section class="container">
     <div class="row">
-      <div class="col-md-3 d-flex align-items-end flex-column py-3">
+      <div class="col-lg-3 d-lg-block d-md-none d-flex align-items-end flex-column py-3">
         <img src="../images/stock/mie.jpeg" class="event-img pr-5"><br class="d-none d-md-block pb-5">
       </div>
 
-      <div class="col-md-9 pt-3">
+      <div class="col-lg-9 col-md-12 pt-3">
         <h1 style="text-align: left;">Mechanical and Industrial Engineering <span
             style="color: #40bb6a;">symposium</span></h1>
         <div class="row">
@@ -104,23 +104,23 @@
       </div>
 
       <nav class="second-nav">
-        <div class="nav nav-tabs" id="gemTab" role="tablist">
-          <button class="nav-link active" id="aboutGEMtab" data-bs-toggle="tab" data-bs-target="#aboutGEM" type="button"
-            role="tab" aria-controls="aboutGEM" aria-selected="true">About GEM</button>
-          <button class="nav-link" id="authorGEMtab" data-bs-toggle="tab" data-bs-target="#authorGEM" type="button"
-            role="tab" aria-controls="authorGEM" aria-selected="false">Author Guidelines</button>
+        <div class="nav nav-tabs" id="mieTab" role="tablist">
+          <button class="nav-link active" id="aboutMIEtab" data-bs-toggle="tab" data-bs-target="#aboutMIE" type="button"
+            role="tab" aria-controls="aboutMIE" aria-selected="true">About MIE</button>
+          <button class="nav-link" id="authorMIEtab" data-bs-toggle="tab" data-bs-target="#authorMIE" type="button"
+            role="tab" aria-controls="authorMIE" aria-selected="false">Author Guidelines</button>
           <li class="nav-item">
             <a class="nav-link" href="fee.html" aria-selected="false">Participation Fee</a>
           </li>
-          <button class="nav-link" id="submitGEMtab" data-bs-toggle="tab" data-bs-target="#submitGEM" type="button"
-            role="tab" aria-controls="submitGEM" aria-selected="false"><i class="fa-solid fa-plus"
+          <button class="nav-link" id="submitMIEtab" data-bs-toggle="tab" data-bs-target="#submitMIE" type="button"
+            role="tab" aria-controls="submitMIE" aria-selected="false"><i class="fa-solid fa-plus"
               style="padding-right: 10px;"></i>Submit paper</button>
         </div>
       </nav>
-      <div class="tab-content" id="gemTabContent">
-        <div class="tab-pane fade show active" id="aboutGEM" role="tabpanel" aria-labelledby="aboutGEMtab" tabindex="0">
+      <div class="tab-content" id="mieTabContent">
+        <div class="tab-pane fade show active" id="aboutMIE" role="tabpanel" aria-labelledby="aboutMIEtab" tabindex="0">
           <div class="row py-5">
-            <div class="col-md-3">
+            <div class="col-lg-3 d-lg-block d-md-none">
               <a href="#topics" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Topics</a>
               <a href="#publication" class="d-none d-md-block btn btn-transprimary"
                 style="text-align: right;">Publications</a>
@@ -129,7 +129,7 @@
               <a href="#committees" class="d-none d-md-block btn btn-transprimary"
                 style="text-align: right;">Committees</a>
             </div>
-            <div class="col-md-9">
+            <div class="col-lg-9 col-md-12">
               <h5 id="topics">Topics</h5>
               <p>Acoustic and noise control, Additive manufacturing, Aerospace engineering, Applied mechanics, Automotive engineering, Biomechanics, CAD CAM, Computational mechanics, Computational fluid dynamics, Dynamic and vibration, Energy conversion, Fluid mechanics, Heat transfer, Internal combustion engine, Machining and machine design, Mechanical design, Mechanics of materials, Robotics, Thermo-acoustic, Tribology, Decision analysis and methods, Manufacturing and production process, Manufacturing system and simulation, Operations research, Production planning and control, Quality control and management, Reliability and maintenance engineering, Systems modeling and simulation, and Work Design.</p>
               <h5 id="publication">Publication</h5>
@@ -153,9 +153,9 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="authorGEM" role="tabpanel" aria-labelledby="authorGEMtab" tabindex="0">
+        <div class="tab-pane fade" id="authorMIE" role="tabpanel" aria-labelledby="authorMIEtab" tabindex="0">
           <div class="row py-5">
-            <div class="col-md-3">
+            <div class="col-lg-3 d-lg-block d-md-none">
               <a href="#prepare" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Preparing
                 paper</a>
               <a href="#docs" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Templates</a>
@@ -164,7 +164,7 @@
               <a href="#learn" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">💡 Learning
                 tips</a>
             </div>
-            <div class="col-md-9">
+            <div class="col-lg-9 col-md-12">
               <h5 id="prepare">Preparing your paper</h5>
               <ol type="1">
                 <li>The paper topic should <u>align with the scope of the symposium</u>, as well as the publisher's
@@ -244,7 +244,7 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="submitGEM" role="tabpanel" aria-labelledby="submitGEMtab" tabindex="0">
+        <div class="tab-pane fade" id="submitMIE" role="tabpanel" aria-labelledby="submitMIEtab" tabindex="0">
           <div class="py-5">
             <p>To participate as a presenter in this symposium, there are nine steps that you need to follow.</p>
             <div class="accordion">
@@ -259,25 +259,32 @@
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <div class="alert alert-info" style="padding-bottom: 0px;">
-                      <p>Before submitting your paper, it is essential that all authors have an EDAS account. If you already have an EDAS account, you can proceed to the next step to submit your paper using your registered account.</p>
+                      <p>Before submitting your paper, it is essential that all authors have an EDAS account. If you
+                        already have an EDAS account, you can proceed to the next step to submit your paper using your
+                        registered account.</p>
                     </div>
                     <h6>1. Go to the EDAS site</h6>
-                    <p>Open your browser and navigate to <a href="https://edas.info" target="_blank"><code>edas.info</code></a>. Click "Create a new account" below the login form.</p>
+                    <p>Open your browser and navigate to <a href="https://edas.info"
+                        target="_blank"><code>edas.info</code></a>. Click "Create a new account" below the login form.
+                    </p>
                     <img src="../images/tutorials/edas/edas-create-new-account.png" class="img-fluid">
                     <hr>
                     <h6>2. Entry your details</h6>
-                    <p>Fill in the required fields (marked with a red asterisk). You can complete other information after the registration. At the end of the form, tick the box “I consent to the EDAS privacy and policies” and click "Add this person" to create your account.</p>
-                    <img src="../images/tutorials/edas/edas-create-new-account-2.png"
-                      class="img-fluid"><br><br>
-                      <p>Your account will require moderation for at least 24 hours.</p>
-                      <img src="../images/tutorials/edas/edas-create-new-account-3.png"
-                      class="img-fluid">
-                      <hr>
+                    <p>Fill in the required fields (marked with a red asterisk). You can complete other information
+                      after the registration. At the end of the form, tick the box “I consent to the EDAS privacy and
+                      policies” and click "Add this person" to create your account.</p>
+                    <img src="../images/tutorials/edas/edas-create-new-account-2.png" class="img-fluid"><br><br>
+                    <p>Your account will require moderation for at least 24 hours.</p>
+                    <img src="../images/tutorials/edas/edas-create-new-account-3.png" class="img-fluid">
+                    <hr>
                     <h6>3. Set up your password</h6>
-                    <p>Set up your initial password by clicking the link on your email. Ensure you check your inbox or spam mail for the email from the EDAS system. If you do not receive the email, feel free to <a href="mailto:icst@ugm.ac.id" target="_blank">contact us</a> or the <a href="mailto:help@edas.info" target="_blank">EDAS Helpdesk</a>. <u>Please note that we use third-party software, so you cannot request it at the end of time.</u></p>
-                    <img src="../images/tutorials/edas/edas-create-new-account-4.png"
-                      class="img-fluid"><br><br>
-                      <p>Your initial password has been created.</p>
+                    <p>Set up your initial password by clicking the link on your email. Ensure you check your inbox or
+                      spam mail for the email from the EDAS system. If you do not receive the email, feel free to <a
+                        href="mailto:icst@ugm.ac.id" target="_blank">contact us</a> or the <a
+                        href="mailto:help@edas.info" target="_blank">EDAS Helpdesk</a>. <u>Please note that we use
+                        third-party software, so you cannot request it at the end of time.</u></p>
+                    <img src="../images/tutorials/edas/edas-create-new-account-4.png" class="img-fluid"><br><br>
+                    <p>Your initial password has been created.</p>
                     <div class="alert alert-success" style="padding-bottom: 0px;">
                       <h6>Your account has been successfully created.</h6>
                       <p>You can now proceed to the next step to submit your paper in the system.</p>
@@ -301,7 +308,7 @@
                         paper:
                       <ul>
                         <li>the email address of all authors in your paper.</li>
-                        <li>paper format and content in accordance with the <a href="gem.html">author
+                        <li>paper format and content in accordance with the <a href="lsmac.html">author
                             guidelines</a>.</li>
                       </ul>
                       <a href="https://www.scientific.net/account/login?" target="_blank" class="btn btn-primary">Submit
@@ -339,7 +346,8 @@
                     <h6>4. Entry your paper details</h6>
                     <p>On the <code>Edit paper</code> tab, browse your <code>DOC</code> / <code>DOCX</code> /
                       <code>RTF</code> / <code>ZIP</code> and <code>PDF</code> files. Click <code>Upload</code> button
-                      to start uploading. The uploaded files should be less than 64 MB.</p>
+                      to start uploading. The uploaded files should be less than 64 MB.
+                    </p>
                     <img src="../images/tutorials/scientificnet/scientificnet-submit-new-paper-4.png"
                       class="img-tutorial">
                     <p>Type your paper title and abstract, then click <code>Update</code>.</p>
@@ -348,7 +356,8 @@
                     <hr>
                     <h6>5. Select your corresponding author</h6>
                     <p>Add your co-authors account by clicking <code>Add new</code> button under
-                      <code>Edit authors</code> tab. Find your co-authors account by their names, emails, or ORCID.</p>
+                      <code>Edit authors</code> tab. Find your co-authors account by their names, emails, or ORCID.
+                    </p>
                     <img src="../images/tutorials/scientificnet/scientificnet-add-co-authors.png" class="img-tutorial">
                     <p>Click the radio button to select your corresponding author.</p>
                     <hr>
@@ -365,7 +374,8 @@
                     <img src="../images/tutorials/scientificnet/scientificnet-sign-copyright-agreement.png"
                       class="img-tutorial">
                     <p>Your agreement has been signed. You can download your agreement by clicking on the
-                      <code>PDF icon</code>.</p>
+                      <code>PDF icon</code>.
+                    </p>
                     <hr>
                     <h6>8. Tick the checklist</h6>
                     <p>Tick all required fields (marked with an asterisk) and finish it by clicking <code>Submit</code>
@@ -388,7 +398,7 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseFour" style="text-transform: uppercase;">
-                    #4<span style="font-weight: 800; padding-left: 10px;">Peer-review process</span>
+                    #3<span style="font-weight: 800; padding-left: 10px;">Peer-review process</span>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
@@ -397,20 +407,20 @@
                       from your account in the Scientific.Net. We will notify you too via email when the review process
                       was finished.</p>
                     <a href="https://www.scientific.net/account/login?" target="_blank" class="btn btn-primary">Check my
-                      paper</a>&nbsp;&nbsp;<a href="editorial-policy.html" target="_blank"
-                      class="btn btn-success">Read editorial policy</a>
+                      paper</a>&nbsp;&nbsp;<a href="editorial-policy.html" target="_blank" class="btn btn-success">Read
+                      editorial policy</a>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseFive" style="text-transform: uppercase;">
-                    #5<span style="font-weight: 800; padding-left: 10px;">Pay the conference fee</span>
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour" style="text-transform: uppercase;">
+                    #4<span style="font-weight: 800; padding-left: 10px;">Pay the conference fee</span>
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <p>If your paper has been accepted for presentation at the conference, please ensure that you
                       pay the conference fee prior to uploading the revised paper. Note that each paper can only be
@@ -429,12 +439,82 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive" style="text-transform: uppercase;">
+                    #5<span style="font-weight: 800; padding-left: 10px;">Check your paper</span>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p>Following the notification of acceptance, please finalize your paper in accordance with the
+                      author guidelines and review results. The corresponding author is responsible for verifying the
+                      title, list of authors, and their affiliations in the EDAS system and manuscript. Any revisions
+                      cannot be made after uploading the revised version by October 10.</p>
+                    <div class="alert alert-success" style="padding-bottom: 0px;">
+                      <h6>The revised paper is ready to upload!</h6>
+                      <p>Your revised paper is now ready to be uploaded. Please proceed to upload your revised paper to
+                        the system.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseSix" style="text-transform: uppercase;">
-                    #6<span style="font-weight: 800; padding-left: 10px;">Submit presentation document</span>
+                    #6<span style="font-weight: 800; padding-left: 10px;">Sign the publishing agreement</span>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p>Before submitting your revised paper, please ensure that you have signed the publishing agreement
+                      provided by the related publisher. You can <a
+                        href="../downloads/AIP_Conference_Proceedings_License_Agreement.pdf">download the form here
+                        ↧</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSeven" style="text-transform: uppercase;">
+                    #7<span style="font-weight: 800; padding-left: 10px;">Submit revised paper</span>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <h6>1. Submit the revised paper</h6>
+                    <p>To complete the revised paper submission, please navigate to the <a href="https://edas.info/"
+                        target="_blank">EDAS dashboard page ↗︎</a> and click on your paper title. Then, upload your
+                      revised paper in PDF format by clicking the cloud icon in the "Revised paper" section.</p>
+                    <a href="https://edas.info/" target="_blank" class="btn btn-primary">Submit revised
+                      paper</a><br><br>
+                    <hr>
+                    <h6>2. Select one of your presenter</h6>
+                    <p>By default, the author who submitted a paper will be presenting at the conference. If the
+                      submitter of your paper is not designated as the presenter, please specify the presenter in the
+                      EDAS paper page.</p>
+                    <p>For any further assistance or clarification, please do not hesitate to <a
+                        href="mailto:icst@ugm.ac.id" target="_blank">contact us</a>.</p>
+                    <div class="alert alert-success" style="padding-bottom: 0px;">
+                      <h6>Your revised paper has been submitted!</h6>
+                      <p>Please submit your presentation document as soon as possible. If you need to make any
+                        last-minute revisions, you can do so at the registration desk on <b>October 23-24</b>.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseEight" style="text-transform: uppercase;">
+                    #8<span style="font-weight: 800; padding-left: 10px;">Submit presentation document</span>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <p>To complete the submission process, please navigate to the <a href="https://edas.info/"
                         target="_blank">EDAS dashboard page ↗︎</a> and click on your paper title. Then, upload your
@@ -460,17 +540,18 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseSeven" style="text-transform: uppercase;">
-                    #7<span style="font-weight: 800; padding-left: 10px;">Attend the conference</span>
+                    data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseNine" style="text-transform: uppercase;">
+                    #9<span style="font-weight: 800; padding-left: 10px;">Attend the conference</span>
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <p>Following the submission of your revised paper and presentation document, it is essential that
                       you participate in the live Q&A session at the conference. Please ensure that you allocate time on
                       <b>October 23-24 in Yogyakarta, Indonesia</b>, as the conference program is non-negotiable and
-                      must adhere to the schedule provided by the organizing committee.</p>
+                      must adhere to the schedule provided by the organizing committee.
+                    </p>
                     <p>In the event that you are unable to attend, please arrange for one of your co-authors to
                       represent you. Any changes to attendance will result in a corresponding change to the name listed
                       on the certificate, which will be sent via email.</p>
@@ -489,8 +570,8 @@
       <!-- Sponsors -->
       <div class="text-center pt-3">
         <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <!-- <img src="../images/publication/e3s.svg" class="px-3 my-2" style="filter: grayscale();" height="35px"> -->
-        <!-- <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="30px"> -->
+        <img src="../images/publication/atlantis-press.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/clarivate.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
       </div>
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
