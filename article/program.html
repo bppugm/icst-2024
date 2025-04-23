@@ -19,8 +19,8 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
   <script src="../javascripts/gtag.js"></script>
@@ -75,8 +75,34 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About ICST 2024</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://icst.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="events.html">All event</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="ceit.html">CEIT Symposium</a></li>
+                  <li><a class="dropdown-item" href="lsmac.html">LSMAC Symposium</a></li>
+                  <li><a class="dropdown-item" href="mie.html">MIE Symposium</a></li>
+                  <li><a class="dropdown-item" href="rsg.html">RSG Symposium</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="gem.html">5th GEM Symposium</a></li>
+                  <li><a class="dropdown-item" href="https://bppugm.github.io/icosia-2024">ICoSIA 2024</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
               <li class="nav-item"><a class="nav-link active" href="program.html">Program</a></li>
               <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
