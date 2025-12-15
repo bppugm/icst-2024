@@ -42,9 +42,12 @@ All symposia images are free to use.
 + AIP Publishing logo © AIP Publishing LLC. 
 + E3S Web of Conferences logo © EDP Science. 
 + Scientific.Net logo © Trans Tech Publications Ltd. 
-+ Atlantis Press logo © Atlantis Press. 
++ Atlantis Press logo © Atlantis Press International B.V. 
 + Scopus logo © Elsevier B.V. 
 + Clarivate logo © Clarivate. 
++ Google Scholar logo © Google. 
++ ProQuest logo © ProQuest LLC. 
++ EBSCO host logo © EBSCO Information Services, Inc. 
 
 ### Other images
 +  Venue image ©  Gadjah Mada University Club (UC) Hotel UGM.
